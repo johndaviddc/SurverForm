@@ -25,3 +25,68 @@ label {
     display: block;
     margin: 0.5rem 0;
 }
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  padding: 0.5em;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+textarea::placeholder,
+select {
+  color: #a8a8a8;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #3b3b4f;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 0.5em 0 0;
+}
+
+input[type="submit"]:hover {
+  background-color: #52526e;
+}
+
+.radio-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1em; /* Adjust margin as needed */
+}
+  
+.radio-container input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.25em; /* Adjust margin as needed */
+    transform: scale(1); /* Reset the scale */
+}
+  
+.radio-container label {
+    display: inline-block;
+    vertical-align: middle;
+}
