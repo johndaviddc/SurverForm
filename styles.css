@@ -69,10 +69,6 @@ input[type="checkbox"] {
   margin: 0 0.5em 0 0;
 }
 
-input[type="submit"]:hover {
-  background-color: #52526e;
-}
-
 .radio-container {
     display: inline-block;
     vertical-align: middle;
@@ -89,4 +85,21 @@ input[type="submit"]:hover {
 .radio-container label {
     display: inline-block;
     vertical-align: middle;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+  
+button[type="submit"]:hover {
+    background-color: #52526e;
 }
