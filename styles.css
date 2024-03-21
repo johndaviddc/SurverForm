@@ -20,3 +20,8 @@ form {
     margin: 0 auto;
     padding-bottom: 2em;
 }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
